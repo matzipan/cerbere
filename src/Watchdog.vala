@@ -80,7 +80,7 @@ public class Cerbere.Watchdog {
         }
 
         if (!command_is_monitored (command)) {
-            critical ("Please file a bug at http://launchpad.net/cerbere and " +
+            critical ("Please file an issue at https://github.com/elementary/cerbere and " +
                       "attach your .xsession-errors and .xsession-errors.old " +
                       "files.");
             return;
